@@ -2,3 +2,4 @@
 *TODO*
 - UX/UI
 - Lambda Design
+- webpack setup
