@@ -3,3 +3,4 @@
 - UX/UI
 - Lambda Design
 - webpack setup
+- business card integration
