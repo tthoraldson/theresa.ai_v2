@@ -1,4 +1,4 @@
-# theresa.ai
+# theresa.ai V2.0
 *TODO*
 - UX/UI
 - Lambda Design
