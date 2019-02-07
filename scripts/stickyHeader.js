@@ -1,13 +1,15 @@
-window.onscroll = function() {myFunction()};
+window.onload = function() {
+  window.onscroll = function() {myFunction()};
 
-var header = document.getElementById("stickyHeader");
-console.log(header);
-var sticky = header.offsetTop;
+  var header = document.getElementById("stickyHeader");
+  console.log(header);
+  var sticky = header.offsetTop;
 
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
+  function myFunction() {
+    if (window.pageYOffset > sticky) {
+      header.classList.add("sticky");
+    } else {
+      header.classList.remove("sticky");
+    }
   }
 }
