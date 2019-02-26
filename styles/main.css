@@ -15,6 +15,10 @@ body {
   color: #f1f1f1;
 }
 
+#footerSocialIcons{
+  font-size: 50px;
+}
+
 main {
   padding: 16px;
 }
@@ -36,4 +40,5 @@ img {
 
 footer {
   background-color: purple;
+  text-align: center;
 }
